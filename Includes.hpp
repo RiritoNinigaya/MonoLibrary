@@ -1,6 +1,6 @@
 #pragma once
 #include <Windows.h>
-namespace MonoLibrary //MonoLibrary For Hacking Some Mono Games(Unity3D) :D
+namespace MonoLibrary //MonoLibrary For Some Mono Games(Unity3D) :D
 {
 	#include <mono/metadata/appdomain.h>
 	#include <mono/metadata/assembly.h>

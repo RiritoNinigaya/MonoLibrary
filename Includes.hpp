@@ -21,7 +21,7 @@ void AllocateMemory() {
 
 void* AttachMono() //If Not Attaching Try My MonoThread Attach Function!!!
 {
-	return reinterpret_cast<void*>(MonoLibrary::mono_thread_attach(MonoLibrary::mono_domain_get())); //Attaching Mono For Hacking Some Mono Games(As Yandere Simulator, Age of Advent, BattleTech, etc)
+	return reinterpret_cast<void*>(MonoLibrary::mono_thread_attach(MonoLibrary::mono_domain_get())); //Attaching Mono For Some Mono Games(As Yandere Simulator, Age of Advent, BattleTech, etc)
 }
 
 MonoLibrary::MonoThread* GetAttachMono() {
